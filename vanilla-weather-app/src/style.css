@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-  color: #885df1;
+  color: #007bff;
   line-height: 28px;
   font-size: 30px;
   font-weight: 200;
@@ -49,4 +49,11 @@ li:first-letter {
   position: relative;
   font-size: 16px;
   top: -34px;
+}
+.active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+.active:hover {
+  text-decoration: none;
 }
