@@ -28,8 +28,9 @@ li:first-letter {
 }
 .weather-app {
   padding: 20px;
-  border: 1px solid #885df1;
+  border: 1px solid #007bff;
   border-radius: 8px;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 .overview {
   margin-bottom: 20px;
@@ -50,13 +51,7 @@ li:first-letter {
   font-size: 16px;
   top: -34px;
 }
-.active {
-  color: rgb(33, 33, 33);
-  cursor: default;
-}
-.active:hover {
-  text-decoration: none;
-}
+
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
